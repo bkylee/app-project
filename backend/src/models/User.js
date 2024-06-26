@@ -19,4 +19,12 @@ const User = sequelize.define("User", {
     type: DataTypes.STRING,
     allowNull: false,
   },
+  location: {
+    type: DataTypes.GEOGRAPHY,
+    allowNull: false,
+  },
+  ethnicity: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
 });
