@@ -1,0 +1,7 @@
+Sequelize is promise-based Node.js ORM for RDB.
+ORM = programming technique allowing to interact with DB using JS objects instead of writing RAW SQL queries
+
+Define models, CRUD operations, associations, migrations, querying, transactions 
+
+---
+
